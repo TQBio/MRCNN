@@ -1,0 +1,36 @@
+import os
+from setuptools import setup, find_packages
+
+setup(name='MRCNN',
+      version='0.0.1',
+      description='Regression of CpG methylation by Deep Learning Method ',
+      long_description=read('README.md'),
+      author='QiTian',
+      author_email='tqglowing@gmail.com',
+      license="MIT",
+      url='https://../../',
+      download_url='https://../..',
+      packages=find_packages(),
+      install_requires=['tensorflow-gpu==1.2.0',
+                        'scikit-learn',
+						'keras'
+                        'scipy',
+                        'numpy',
+                        'pandas',
+                        'matplotlib',
+                        'seaborn'],
+      keywords=['Deep learning',
+                'Convolutional neural networks',
+                'DNA methylation',
+                'Single CpG site'],
+      classifiers=['Environment :: Console',
+                   'Intended Audience :: Science/Research',
+                   'License :: OSI Approved :: MIT License',
+                   'Natural Language :: English',
+                   'Programming Language :: Python',
+                   'Programming Language :: Python :: 2',
+                   'Programming Language :: Python :: 2.7',
+                   'Topic :: Scientific/Engineering :: Artificial Intelligence',
+                   'Topic :: Scientific/Engineering :: Bioinformatics',
+                   ]
+      )

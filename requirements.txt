@@ -1,0 +1,7 @@
+tensorflow-gpu >= 1.2.0
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+sklearn
