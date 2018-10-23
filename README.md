@@ -5,7 +5,7 @@ Installation
 
 Download MRCNN by
 
-https://github.com/NeverLow1994/MRCNN.git
+https://github.com/TQBio/MRCNN.git
 
 1)Installation has been tested in Linux with Python 2.7.
 
